@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right,#24214d54,#a8281171,#ee8e3a73), url(../src/assets/imagenes/imgCabezera.jpg);
+    font-family: "laton",sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    padding: 1.875rem;
+}
+
+.header{
+    height: 20vh;
+    background: linear-gradient(to right,#1304eb,#b8c3ec);
+    clip-path: polygon(0 0,100% 0,100% 75%, 0 100%);
+}
+
+.heading-primary{
+    
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+
+}
+
+@media only screen and (max-width: 37.5rem){
+    .heading-primary{
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+    }
+}
